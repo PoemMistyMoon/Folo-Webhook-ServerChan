@@ -46,7 +46,7 @@
 ## 使用方法：
 
 1. **在 Cloudflare Workers 中创建新的 Worker**
-2. **部署脚本**：将上述代码复制到 Worker 编辑器中
+2. **部署脚本**：将本仓库`_worker.js`中的代码复制到 Worker 编辑器中
 3. **获取 Worker URL**：部署后会得到一个类似 `https://your-worker.your-subdomain.workers.dev` 的 URL
 4. **绑定自定义域名**：可选，但非常建议绑定自定义域名
 5. **在 Cloudflare Workers 设置中添加环境变量**：
