@@ -50,7 +50,7 @@
 3. **获取 Worker URL**：部署后会得到一个类似 `https://your-worker.your-subdomain.workers.dev` 的 URL
 4. **绑定自定义域名**：可选，但非常建议绑定自定义域名
 5. **在 Cloudflare Workers 设置中添加环境变量**：
-   - `SCKEY`: 你的 Server 酱密钥
+   - `SCKEY`: 你的 Server 酱密钥，必填!!!
    - `WEBHOOK_PATH`: 自定义的安全路径，如 `/webhook-secret123`，默认路径为/webhook
 6. **在 Folo 中配置 webhook**：使用域名加路径填入Folo即可, 如`https://your-worker.your-subdomain.workers.dev/webhook`
 
@@ -64,3 +64,5 @@
 - `/secret-webhook-path`
 
 这样可以有效防止恶意请求和滥用！
+
+另外提一嘴Claude真好用
